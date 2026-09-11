@@ -1,5 +1,7 @@
 -- @!
-print_colored("[?YW]Instalation start...[?RT]")
-print_colored("[?YW]    Installing go-build...[?RT]")
+print_colored("[?YW]Instalation start...[?RT]\n")
+
+print_colored("[?YW]    Installing go-build...[?RT]\n")
 run_cli("-install github.com/pt-main/run-scripts@main/go-build.py")
-print_colored("[?BGN]Instalation complete...[?RT]")
+
+print_colored("[?BGN]Instalation complete...[?RT]\n")
