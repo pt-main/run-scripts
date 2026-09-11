@@ -10,4 +10,7 @@ run_cli("-install github.com/pt-main/run-scripts@main/addMit.py addMit 'Write MI
 print_colored("[?YW]    Installing addApcache20...[?RT]\n")
 run_cli("-install github.com/pt-main/run-scripts@main/addApache20.py addApache20 'Write Apache 2.0 license in current dir to LICENSE file'")
 
+print_colored("[?YW]    Installing sysinfo...[?RT]\n")
+run_cli("-install github.com/pt-main/run-scripts@main/sysinfo.lua sysinfo 'Show system info (works on windows, macos, linux)'")
+
 print_colored("[?BGN]Instalation complete...[?RT]\n")
