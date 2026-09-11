@@ -1,4 +1,4 @@
-with open("LICENCE", "w") as f:
+with open("LICENSE", "w") as f:
     f.write('''MIT License
 
 Copyright (c) 2026 Pt
