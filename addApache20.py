@@ -1,4 +1,4 @@
-with open("LICENCE", "w") as f:
+with open("LICENSE", "w") as f:
     f.write('''                                 Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
