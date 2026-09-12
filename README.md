@@ -6,7 +6,7 @@ run -install github.com/pt-main/run-scripts@main/run.task.lua all
 
 Run script which I use
 
-# Adds
+# Scripts
 
 ### No requires
 
