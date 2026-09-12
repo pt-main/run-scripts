@@ -18,7 +18,7 @@ print_colored("[?YW]Instalation start...[?RT]\n")
 local args = get_args()
 for i = 1, #args do
     local arg = args[i]
-    print_colored("[?YW]Installing " .. arg .. "[?RT]...\n")
+    print_colored("[?YW]Installing " .. arg .. "...[?RT]\n")
     script(arg)
     print("")
 end
