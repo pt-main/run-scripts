@@ -12,7 +12,7 @@ run_cli("-install github.com/pt-main/run-scripts@main/addApache20.py addApache20
 print_colored("[?YW]    Installing sysinfo...[?RT]\n")
 run_cli("-install github.com/pt-main/run-scripts@main/sysinfo.lua sysinfo 'Show system info (works on windows, macos, linux)'")
 
--- @!
+-- @
 print_colored("[?YW]Instalation start...[?RT]\n")
 
 local args = get_args()
