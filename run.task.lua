@@ -12,6 +12,9 @@ run_cli("-install github.com/pt-main/run-scripts@main/addApache20.py addApache20
 print_colored("[?YW]    Installing sysinfo...[?RT]\n")
 run_cli("-install github.com/pt-main/run-scripts@main/sysinfo.lua sysinfo 'Show system info (works on windows, macos, linux)'")
 
+print_colored("[?YW]    Installing luabench...[?RT]\n")
+run_cli("-install github.com/pt-main/run-scripts@main/lua-bench.lua luabench 'Lua speed benchmark'")
+
 -- @all
 script("noreq")
 script("python")
