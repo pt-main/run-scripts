@@ -15,6 +15,9 @@ run_cli("-install github.com/pt-main/run-scripts@main/sysinfo.lua sysinfo 'Show 
 print_colored("[?YW]    Installing luabench...[?RT]\n")
 run_cli("-install github.com/pt-main/run-scripts@main/lua-bench.lua luabench 'Lua speed benchmark'")
 
+print_colored("[?YW]    Installing fastfetch...[?RT]\n")
+run_cli("-install github.com/pt-main/run-scripts@main/fastfetch.lua sysfetch 'Colored beautifull system info'")
+
 -- @all
 script("noreq")
 script("python")
