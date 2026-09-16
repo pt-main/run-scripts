@@ -15,6 +15,7 @@ Run script which I use
 
 - `sysinfo`: Show information about system.
 - `luabench`: Lua speed benchmark.
+- `sysfetch`: Colored beautiful system info.
 
 ### Require Python 3
 
