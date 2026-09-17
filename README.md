@@ -1,8 +1,8 @@
 # run-scripts
 
+install all scripts:
 ```bash
-# install all scripts:
-run -install github.com/pt-main/run-scripts@main/run.task.lua all
+run --lm -install github.com/pt-main/run-scripts@main/run.task.lua all
 ```
 
 Run script which I use
